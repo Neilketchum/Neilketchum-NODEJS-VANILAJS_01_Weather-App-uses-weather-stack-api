@@ -23,7 +23,7 @@ function DateBuilder(date){
   }
 search.addEventListener("click",(e)=>{
     console.log(search_box.value)
-    fetch(`http://localhost:3000/weather?search=${search_box.value}`).then((response) => {
+    fetch(`/weather?search=${search_box.value}`).then((response) => {
         response.json().then((data) => {
               if (data.error) {
                 console.log(data.error)
