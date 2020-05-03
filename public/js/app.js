@@ -1,4 +1,3 @@
-console.log('Client side javascript file is loaded!')
 
 const search_box = document.querySelector('.searchbox')
 const search = document.querySelector('.btn');
